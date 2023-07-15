@@ -1,0 +1,94 @@
+#info{
+    margin-top:35px;
+    margin-bottom:15px;
+}
+
+svg{
+    margin-left:-4px;
+}
+
+#boundsArea{
+    height: 390px;
+    width: 609px;
+    margin-top: -430px;
+    margin-left: 487px;
+    position: absolute;
+    border: 1px solid #fc81b3;
+}
+
+.pointClass{
+    width:6px;
+    height:6px;
+    background-color:#810030;
+    border-radius: 3px;
+    position: fixed;
+}
+
+#novaConsultaBtn{
+    margin-top:25px;
+    margin-bottom:20px;
+    background-color: #fc82b3;
+    color: white;
+    font-weight: 500;
+    border: none;
+    border-right: 2px solid #420d22;
+    border-bottom: 2px solid #420d22;
+    border-radius: 25px;
+    font-size: 15px;
+    padding: 8px 30px;
+}
+
+#generatePoint{
+    background-color: #995e74;
+    color: white;
+    font-weight: 500;
+    border: none;
+    border-right: 2px solid #490620;
+    border-bottom: 2px solid #490620;
+    border-radius: 25px;
+    font-size: 15px;
+    padding: 7px 21px;
+    margin-left: 11px;
+}
+
+#novaConsultaBtn:disabled{
+    background-color: #ebb9cd;
+    border-right: 2px solid #cb7a9a;
+    border-bottom: 2px solid #cb7a9a;
+}
+
+.dataInput{
+    width: 73px;
+    text-align: center;
+}
+
+#anosInput{
+    width: 40px;
+}
+
+#mesesInput{
+    width: 50px;
+}
+
+#alturaLabel{
+    margin-left: 16px;
+}
+
+.boldLabel{
+    font-weight: 500;
+    color: #6b062a;
+}
+
+input:focus-visible{
+    outline: none !important;
+    border: 2px solid #5d0025;
+    border-radius: 6px
+}
+
+#alturaInput{
+    width: 58px;
+}
+
+#hintsArea{
+    margin-top:28px;
+}
