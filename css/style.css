@@ -7,11 +7,17 @@ svg{
     margin-left:-4px;
 }
 
+#curvaArea{
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
 #boundsArea{
     height: 390px;
     width: 609px;
     margin-top: -430px;
-    margin-left: 487px;
+    margin-left: 54px;
     position: absolute;
     border: 1px solid #fc81b3;
 }
@@ -22,6 +28,13 @@ svg{
     background-color:#810030;
     border-radius: 3px;
     position: fixed;
+}
+
+#controlsArea{
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%, 0);
+    margin-top: 441px;
 }
 
 #novaConsultaBtn{
