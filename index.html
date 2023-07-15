@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Curva de Desenvolvimento</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/style.css'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+</head>
+<body>
+    <div id="info" class="text-center">
+        <h5 style="color:#fc83b4">Curva de Desenvolvimento - Meninas</h5>
+        <h5 style="font-size:18px">Comprimento X Idade</h5>
+    </div>
+
+    <div id="curvaArea">
+        <div id="imgArea" class="text-center">
+            <img src="img/curvameninas.jpg">
+        </div>
+        <div id="boundsArea">
+            <div class="pointClass" style="margin-left:8.899999999999977px; margin-top: 326.759px;"></div>
+            <div class="pointClass" style="margin-left: 56.9px; margin-top: 277.392px;"></div>
+            <div class="pointClass" style="margin-left: 117.8px; margin-top: 237.899px;"></div>
+        </div>
+    </div>
+
+    <div id="controlsArea" class="text-center">
+        <button id="novaConsultaBtn" type="button" onclick="addPoint()">
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-plus" viewBox="0 0 16 16">
+            <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/>
+          </svg>Novo Registro</button>
+        <div id="newInfosArea" hidden>
+            <label class="boldLabel">Idade:</label>
+            <input class="dataInput" id="anosInput" type="number" min="0" max="5" placeholder="0">
+            <label>anos e</label>
+            <input class="dataInput" id="mesesInput" type="number" min="0" max="11" placeholder="0">
+            <label>meses</label>
+            <label id="alturaLabel" class="boldLabel">Altura(cm):</label>
+            <input class="dataInput" id="alturaInput" type="number" min="43" max="122" placeholder="0">
+            <button id="generatePoint" onclick="doPoint()">Ok!</button>
+        </div>
+        <div id="hintsArea" hidden>
+            Idade não pode ser maior do que 5 anos.<br>
+            Altura deve estar entre 43cm e 122cm.
+        </div>
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+<script src="js/script.js"></script>
+</html>
