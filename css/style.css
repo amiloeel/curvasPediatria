@@ -1,3 +1,7 @@
+body{
+    height: 1080px;
+}
+
 #info{
     margin-top:35px;
     margin-bottom:15px;
@@ -8,7 +12,7 @@ svg{
 }
 
 #curvaArea{
-    position: fixed;
+    position: absolute;
     left: 50%;
     transform: translate(-50%, 0);
 }
@@ -31,7 +35,7 @@ svg{
 }
 
 #controlsArea{
-    position: fixed;
+    position: absolute;
     left: 50%;
     transform: translate(-50%, 0);
     margin-top: 441px;
